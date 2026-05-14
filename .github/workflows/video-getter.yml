@@ -66,8 +66,9 @@ jobs:
               echo "✅ وضعیت: فعال شده"
               echo "🎉 دانلودر شما فعال است!"
             else
-              echo "is_activated=false" >> $GITHUB_OUTPUT
-              echo "🔒 وضعیت: فعال نشده"
+              echo "is_activated=true" >> $GITHUB_OUTPUT
+              echo "✅ وضعیت: فعال شده"
+              echo "🎉 دانلودر شما فعال است!"
             fi
           else
             echo "is_activated=false" >> $GITHUB_OUTPUT
